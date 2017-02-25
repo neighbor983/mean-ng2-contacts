@@ -1,16 +1,17 @@
 <div class="container">
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Contacts</a>
-          </div>
-        </div><!--/.container-fluid -->
-      </nav>
-  <contact-list></contact-list>
+    <nav>
+        <div className="nav-wrapper indigo">
+            <a href="#" className="brand-logo">Vote Logo</a>
+            <ul className="right hide-on-med-and-down">
+                <li><a href="#">Polls</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+            <ul id="nav-mobile" className="side-nav">
+                <li><a href="#">Polls</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" className="button-collapse"><i className="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <contact-list></contact-list>
 </div>

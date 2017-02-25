@@ -1,18 +1,18 @@
 <div *ngIf="contact" class="row">
-    <div class="col-md-12">
+    <div class="col m12">
         <h2 *ngIf="contact._id">Contact Details</h2>
         <h2 *ngIf="!contact._id">New Contact</h2>
     </div>
 </div>
 <div *ngIf="contact" class="row">
-    <form class="col-md-12">
+    <form class="col m12">
         <div class="form-group">
             <label for="contact-name">Name</label>
-            <input class="form-control" name="contact-name" [(ngModel)]="contact.name" placeholder="Name" />
+            <input class="form-control" name="contact-name" [(ngModel)]="contact.name" />
         </div>
         <div class="form-group">
             <label for="contact-email">Email</label>
-            <input class="form-control" name="contact-email" [(ngModel)]="contact.email" placeholder="support@mlab.com" />
+            <input class="form-control" name="contact-email" [(ngModel)]="contact.email" />
         </div>
         <div class="form-group">
             <label for="contact-phone-mobile">Mobile</label>
